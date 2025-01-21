@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About page - Floral Fantasies❀</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <div class="container">
+  <div class="navbar">
+    <div class="logo">
+      <img src="images/logo.png" width="125px">
+    </div>
+    <nav>
+      <ul id="MenuItems">
+<li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="account.html">Account</a></li>
+      </ul>
+    </nav>
+	<a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+	<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+   </div>
+   </div>
+   
+   <!------- about page ----->
+<div class="section">
+  <div class="container">
+	<div class="background">
+	  <div class="row">
+		<div class="content-section">
+	    	<div class="title">
+		<h1>About Us</h1>
+		</div>
+		<div class="content">
+		<h3>Welcome to Floral Fantasies❀</h3>
+		<p>Floral Fantasies❀ is your ultimate destination for premium fragrances 
+		that elevate your senses. We offer an extensive collection of perfumes from 
+		world-renowned brands, along with exclusive niche scents for every preference. 
+		Whether you're searching for a timeless classic or a unique, signature fragrance, 
+		our carefully curated selection ensures that you will find something perfect for any 
+		occasion. With a focus on quality, authenticity, and exceptional customer service, 
+		we aim to provide a seamless shopping experience from the comfort of your home. Explore, 
+		discover, and indulge in the art of scent at Floral Fantasies❀.</p>
+		<div class="button">
+		   <a href="">Read More</a>
+		</div>
+		</div>
+		<div class="social">
+		<i class="fa fa-facebook-f"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-whatsapp"></i>
+	    </div>
+	</div>
+   </div>
+  </div>
+ </div>
+ </div>
+
+
+   
+     <!----- footer ------>
+    <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col-1">
+			     <h3>Download Our App</h3>
+				 <p>Download App for Android and ios mobile phone.</p>
+				 <div class="app-logo">
+				 <img src="images/play-store.png">
+				 <img src="images/app-store.png">
+			</div>
+			</div>
+			<div class="footer-col-2">
+			 <img src="images/logo-white.png">
+			 <p>Our purpose is to make the allure and artistry of 
+			 fine Fragrances accessible to everyone.</p>
+			</div>
+			<div class="footer-col-3">
+			   <h3>Created By</h3>
+			   <ul>
+			     <li>Yusra Emaan</li>
+				 <li>Esheeta Kumari</li>
+				 <li>Diya Kumari</li>
+			   </ul>
+			</div>
+			<div class="footer-col-4">
+			   <h3>Follow us</h3>
+			   <ul>
+			     <li>Facebook</li>
+				 <li>Twitter</li>
+				 <li>Instagram</li>
+				 <li>YouTube</li>
+			   </ul>
+			</div>
+		  </div>
+		  <hr>
+		  <p class="copyright">&#169;Copyright 2020 - Floral Fantasies</p>
+	   </div>
+    </div>
+	
+	<!----- js for toggle menu ---->
+ 
+  <script>
+
+    var MenuItems = document.getElementById("MenuItems");
+	
+	MenuItems.style.maxHeight = "0px";
+	
+	    function menutoggle(){
+		    if(MenuItems.style.maxHeight == "0px")
+		      {
+		         MenuItems.style.maxHeight = "200px";
+		      }
+		else
+		      {
+		         MenuItems.style.maxHeight = "0px";
+ 		      }
+	}  
+	</script>
+
+
+</body>
+</html>
